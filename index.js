@@ -1,3 +1,7 @@
+var port = process.env.PORT || 3000;
+
+app.listen(port);
+
 const express = require('express')
 const app = express()
 
@@ -27,7 +31,3 @@ app.get('/vaccine', (req, res) => {
 
 
 
-
-app.listen(3000, () => {
-  console.log('Start server at port 3000.')
-})
