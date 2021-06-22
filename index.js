@@ -1,6 +1,5 @@
 var port = process.env.PORT || 3000;
 
-app.listen(port);
 
 const express = require('express')
 const app = express()
@@ -30,4 +29,5 @@ app.get('/vaccine', (req, res) => {
 })
 
 
+app.listen(port);
 
